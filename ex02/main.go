@@ -4,7 +4,8 @@ import (
 		"piscine"
 )
 func main() {
-		test := []string{"Hello", "how", "are", "you?"}
+		// test := []string{"Hello", "how", "are", "you?"}
+		test := []string{"Hello", "how", "ゆう", "you?"}
 		// test := []string{"","Hello", "how", "are", "you?"}
 		// test := []string{"",""}
 		fmt.Println(piscine.ConcatParams(test))
